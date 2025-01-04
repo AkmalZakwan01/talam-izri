@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IZRI BIZLINE</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #333;
+      }
+
+      /* Header */
+      header {
+        text-align: center;
+        background-image: url("bg2.png.jpg");
+        background-size: cover;
+        color: white;
+        padding: 50px 0;
+      }
+
+      header .logo img {
+        max-width: 100px;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        color: #fff;
+      }
+
+      /* Contact Buttons */
+      .contact-buttons {
+        margin-top: 20px;
+      }
+
+      .contact-buttons a {
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: #25d366; /* WhatsApp Green */
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        display: inline-block;
+        transition: background-color 0.3s;
+      }
+
+      .contact-buttons a.call {
+        background-color: #007bff; /* Blue for Call */
+      }
+
+      .contact-buttons a:hover {
+        background-color: #128c7e; /* WhatsApp hover effect */
+      }
+
+      .contact-buttons a.call:hover {
+        background-color: #0056b3; /* Call hover effect */
+      }
+
+      /* Gallery Section */
+      .gallery {
+        padding: 30px;
+        background-color: #fff;
+        text-align: center;
+      }
+
+      .gallery h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #d0021b;
+      }
+
+      .product-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+
+      .product {
+        border: 1px solid #ddd;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+      }
+
+      .product img {
+        max-width: 100%;
+        border-radius: 5px;
+      }
+
+      .product h3 {
+        font-size: 1.2rem;
+        color: #0070c0;
+      }
+
+      .product p {
+        font-size: 1rem;
+        color: #333;
+      }
+
+      /* Contact Section */
+      .contact {
+        padding: 30px;
+        text-align: center;
+        background-color: #fff;
+      }
+
+      .contact h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: #f0ad4e;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #0070c0;
+        color: white;
+      }
+
+      footer h2 {
+        font-size: 1.5rem;
+      }
+
+      footer .social-media {
+        list-style: none;
+        padding: 0;
+      }
+
+      footer .social-media li {
+        display: inline;
+        margin: 0 10px;
+      }
+
+      footer .social-media a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 10px;
+        background-color: #333;
+        border-radius: 5px;
+        transition: background-color 0.3 ease;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="logo.png.jpg" alt="Logo IZRI BIZLINE" />
+      </div>
+      <h1>IZRI BIZLINE</h1>
+      <div class="contact-buttons">
+        <a href="tel:+60182289195" class="call">Call Us</a>
+        <a href="https://wa.me/60182289195" target="_blank">Chat on WhatsApp</a>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <h2>Our Prouct</h2>
+      <div class="product-list">
+        <div class="product">
+          <img src="img1.png.jpg" alt="Produk 1" />
+          <h3>Talam Serimuka</h3>
+          <h3>Talam Cendol</h3>
+          <h3>Talam Keladi</h3>
+          <h3>Talam Jagung</h3>
+          <h3>Talam Kasui</h3>
+          <h3>Talam Suji</h3>
+          <p>Harga: RM40</p>
+        </div>
+        <div class="product">
+          <img src="img2.png.jpg" alt="Produk 2" />
+          <h3>Talam Koleh Kacang</h3>
+          <h3>Talam Lapis Hitam Manis</h3>
+          <h3>Talam Lapis Zahirah</h3>
+          <h3>Talam Tokyo</h3>
+          <h3>Talam Lapis Pelangi</h3>
+          <h3>Talam Lapis Kacang Hijau</h3>
+          <p>Harga: RM45</p>
+        </div>
+        <div class="product">
+          <img src="img3.png.jpg" alt="Produk 3" />
+          <h3>Talam Ubi</h3>
+          <h3>Talam Daing Berlauk</h3>
+          <p>Harga: RM50</p>
+        </div>
+        <div class="product">
+          <img src="img4.png.jpg" alt="Produk 4" />
+          <h3>Talam Durian</h3>
+          <p>Harga: RM55</p>
+        </div>
+        <div class="product">
+          <img src="img5.png.jpg" alt="Produk 5" />
+          <h3>Kek Pisang</h3>
+          <p>Harga: RM30</p>
+        </div>
+        <div class="product">
+          <img src="img6.png.jpg" alt="Produk 6" />
+          <h3>Puding Coklat Oreo</h3>
+          <p>Harga: RM30</p>
+        </div>
+        <div class="product">
+          <img src="img7.png.jpg" alt="Produk 7" />
+          <h3>Agar-agar Santan Gula Melaka</h3>
+          <p>Harga: RM25</p>
+        </div>
+        <div class="product">
+          <img src="img8.png.jpg" alt="Produk 8" />
+          <h3>Agar-agar Santan Pandan</h3>
+          <p>Harga: RM25</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Hubungi Kami</h2>
+      <p>Email: izribizline@example.com</p>
+      <p>Telefon: +60182289195</p>
+      <p>
+        Lokasi: No 25, Jalan Merpati 3, Taman Scientex, 81700, Paisr Gudang,
+        Johor, Malaysia
+      </p>
+    </section>
+
+    <!-- Social Media -->
+    <footer>
+      <h2>Follow Us</h2>
+      <ul class="social-media">
+        <li><a href="https://www.facebook.com/share/1KZQCvmwxD/?mibextid=wwXIfr" target="_blank">facebook</a>
+        <li><a href="https://www.instagram.com/talam_izri?igsh=dTc4MWo5ZmNnMTg1" target="_blank">instagram</a>
+      </ul>
+    </footer>
+  </body>
+</html>
